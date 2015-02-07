@@ -1,0 +1,18 @@
+{
+  "name": "mostad/mostad-social-grant",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kristofer Karlsson",
+      "email": "karlsson.kristofer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-0": {
+      "Mostad\\SocialGrant\\": "src/"
+    }
+  }
+}

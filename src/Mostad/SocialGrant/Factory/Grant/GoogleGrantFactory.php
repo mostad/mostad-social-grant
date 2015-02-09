@@ -14,9 +14,7 @@ use Zend\ServiceManager\ServiceLocatorInterface;
 class GoogleGrantFactory implements FactoryInterface
 {
     /**
-     * @param ServiceLocatorInterface $serviceLocator
-     *
-     * @return GoogleGrant
+     * {@inheritdoc}
      */
     public function createService(ServiceLocatorInterface $serviceLocator)
     {

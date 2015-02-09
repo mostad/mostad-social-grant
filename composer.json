@@ -8,11 +8,15 @@
     }
   ],
   "require": {
-    "php":                          ">=5.5",
-    "doctrine/common":              ">=2.5-dev,<2.6-dev",
-    "mostad/mostad-user":           "dev-master",
-    "zendframework/zend-http":      "~2.3",
-    "zfr/zfr-oauth2-server-module": "~0.6"
+    "php":                               ">=5.5",
+    "doctrine/common":                   ">=2.5-dev,<2.6-dev",
+    "doctrine/doctrine-module":          "0.9.x-dev@dev",
+    "mostad/mostad-user":                "dev-master",
+    "zendframework/zend-filter":         "~2.3",
+    "zendframework/zend-inputfilter":    "~2.3",
+    "zendframework/zend-http":           "~2.3",
+    "zendframework/zend-servicemanager": "~2.3",
+    "zfr/zfr-oauth2-server-module":      "~0.6"
   },
   "autoload": {
     "psr-0": {

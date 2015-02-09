@@ -80,7 +80,7 @@ abstract class AbstractSocialGrant extends AbstractGrant implements
 
         $owner = $this->getOwner($token);
         if (!$owner instanceof TokenOwnerInterface) {
-            throw OAuth2Exception::accessDenied('Unable to load account');
+            throw OAuth2Exception::accessDenied('Unable to load user from this token');
         }
 
         /**
